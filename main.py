@@ -30,7 +30,7 @@ def send_email(message):
         connection.sendmail(
             from_addr=sender_email,
             to_addrs=recipient_email,
-            msg=f"Motivational Quote\n\n{message}"
+            msg=f"Subject:Motivational Quote\n\n{message}"
         )
 
 
